@@ -2,39 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bharath Kumar Dasari | DevOps Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="logo">BKD</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
+    <!-- Hero Section -->
     <header id="home" class="hero">
         <div class="hero-content">
             <div class="status-badge">Available for Work</div>
             <h1>Bharath Kumar Dasari</h1>
             <p class="subtitle">DevOps Engineer</p>
+
             <div class="infinity-container">
-                <img src="linkedin .jpeg" alt="DevOps Loop" class="infinity-svg">
+                <!-- Make sure file name has NO spaces -->
+                <img src="linkedin .jpeg" alt="Profile Image" class="infinity-svg">
             </div>
+
             <a href="resources/resume.pdf" class="btn-primary" download>Download CV</a>
         </div>
     </header>
 
+    <!-- Skills Section -->
     <section id="skills" class="section">
         <h2>Tech Stack</h2>
+
         <div class="skills-grid">
             <div class="skill-card"><i class="fab fa-docker"></i><span>Docker</span></div>
             <div class="skill-card"><i class="fab fa-aws"></i><span>AWS</span></div>
@@ -45,8 +59,10 @@
         </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects" class="section">
         <h2>Featured Projects</h2>
+
         <div class="projects-container">
             <div class="project-card">
                 <div class="card-tag">CI/CD</div>
@@ -54,12 +70,14 @@
                 <p>Jenkins & AWS implementation for seamless deployment.</p>
                 <a href="#" class="view-link">View Source</a>
             </div>
-            </div>
+        </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="section">
         <div class="contact-box">
             <h2>Get In Touch</h2>
+
             <form id="contact-form">
                 <input type="text" placeholder="Name" required>
                 <input type="email" placeholder="Email" required>
@@ -75,5 +93,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
