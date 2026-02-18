@@ -8,8 +8,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form Submission (Mockup)
+// Mock Form Submission
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('Thanks for reaching out, Bharath! Since this is a static site, check out Formspree or EmailJS to make this form functional.');
+    alert('Thanks for reaching out! This is a static demo form.');
 });
